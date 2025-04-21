@@ -16,14 +16,14 @@ const Skills: React.FC = () => {
         <div className="bg-indigo-800 p-8 rounded-lg">
           <div className="flex items-center mb-6">
             <Award size={28} className="text-orange-400 mr-3" />
-            <h3 className="text-2xl font-semibold">コアバリュー：</h3>
+            <h3 className="text-xl md:text-2xl font-semibold">コアバリュー：</h3>
           </div>
           
           <ul className="space-y-4">
             {coreValues.map((value, index) => (
               <li key={index} className="flex items-start">
                 <span className="inline-block w-2 h-2 bg-orange-400 rounded-full mt-2 mr-3"></span>
-                <span className="text-gray-100 text-lg">{value}</span>
+                <span className="text-base md:text-lg text-gray-100">{value}</span>
               </li>
             ))}
           </ul>
@@ -32,14 +32,14 @@ const Skills: React.FC = () => {
         <div className="bg-indigo-800 p-8 rounded-lg">
           <div className="flex items-center mb-6">
             <Lightbulb size={28} className="text-orange-400 mr-3" />
-            <h3 className="text-2xl font-semibold">ベーススキル：</h3>
+            <h3 className="text-xl md:text-2xl font-semibold">ベーススキル：</h3>
           </div>
           
           <ul className="space-y-4">
             {baseSkills.map((skill, index) => (
               <li key={index} className="flex items-start">
                 <span className="inline-block w-2 h-2 bg-orange-400 rounded-full mt-2 mr-3"></span>
-                <span className="text-gray-100 text-lg">{skill}</span>
+                <span className="text-base md:text-lg text-gray-100">{skill}</span>
               </li>
             ))}
           </ul>

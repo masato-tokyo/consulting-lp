@@ -12,22 +12,22 @@ const About: React.FC = () => {
           </h2>
           
           <div className="mb-6">
-            <h3 className="text-xl font-semibold text-gray-900 mb-2">
+            <h3 className="text-lg md:text-xl font-semibold text-gray-900 mb-2">
               竹内正人｜経営・戦略コンサルタント / UXデザイナー / プロデューサー
             </h3>
-            <p className="text-gray-700 leading-relaxed">
+            <p className="text-base md:text-lg text-gray-700 leading-relaxed">
               老舗デザイン会社、大手人材企業を経て独立。<br />
               構想の言語化から実行の設計・支援まで、事業・組織・地域の変化を共に創ってきました。
             </p>
           </div>
           
           <div className="mb-6">
-            <h3 className="text-xl font-semibold text-gray-900 mb-3">問い続けることが、私のスタイルです。</h3>
+            <h3 className="text-lg md:text-xl font-semibold text-gray-900 mb-3">問い続けることが、私のスタイルです。</h3>
             <ul className="space-y-2">
               {experience.map((item, index) => (
                 <li key={index} className="flex items-start">
                   <span className="inline-block w-2 h-2 bg-orange-500 rounded-full mt-2 mr-3"></span>
-                  <span className="text-gray-700">{item}</span>
+                  <span className="text-base md:text-lg text-gray-700">{item}</span>
                 </li>
               ))}
             </ul>

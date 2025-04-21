@@ -11,7 +11,7 @@ const Hero: React.FC = () => {
             もう一人の右腕を。
           </h1>
           
-          <p className="text-xl md:text-2xl text-gray-700 mb-10 leading-relaxed">
+          <p className="text-base md:text-lg text-gray-700 mb-10 leading-relaxed">
             事業の構想や組織の"もやもや"を、<br className="hidden md:block" />
             週1〜2回の壁打ちから一緒に進めませんか？
           </p>
@@ -20,14 +20,14 @@ const Hero: React.FC = () => {
             <Button 
               href="https://tally.so/your-form-link" 
               variant="secondary"
-              className="text-lg px-8 py-4"
+              className="text-base md:text-lg px-8 py-4"
             >
               話してみる（ご相談フォームへ）
             </Button>
             <Button 
               href="#services" 
               variant="outline"
-              className="text-lg px-8 py-4"
+              className="text-base md:text-lg px-8 py-4"
             >
               サービスを見る
             </Button>

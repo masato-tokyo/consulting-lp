@@ -32,8 +32,8 @@ const Process: React.FC = () => {
             
             {/* Content */}
             <div className={`md:w-1/2 ${index % 2 === 0 ? 'md:text-right' : 'md:text-left'}`}>
-              <h3 className="text-xl font-semibold text-gray-900 mb-2">{item.title}</h3>
-              <p className="text-gray-600">{item.description}</p>
+              <h3 className="text-lg md:text-xl font-semibold text-gray-900 mb-3">{item.title}</h3>
+              <p className="text-base md:text-lg text-gray-600">{item.description}</p>
             </div>
           </div>
         ))}
@@ -43,7 +43,7 @@ const Process: React.FC = () => {
         <Button 
           href="https://tally.so/your-form-link" 
           variant="secondary"
-          className="text-lg px-8 py-4"
+          className="text-base md:text-lg px-8 py-4"
         >
           話してみる（ご相談フォームへ）
         </Button>

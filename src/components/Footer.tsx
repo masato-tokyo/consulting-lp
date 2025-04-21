@@ -8,7 +8,7 @@ const Footer: React.FC = () => {
         <div className="flex flex-col md:flex-row justify-between">
           <div className="mb-8 md:mb-0">
             <h3 className="text-2xl font-bold mb-4">竹内コンサルティング</h3>
-            <p className="text-indigo-200 max-w-md">
+            <p className="text-base md:text-lg text-indigo-200 max-w-md">
               経営者の「もやもや」を言葉にして、伴走的に動かす経営コンサルティングサービス
             </p>
           </div>
@@ -17,9 +17,9 @@ const Footer: React.FC = () => {
             <div>
               <h4 className="text-lg font-semibold mb-4 text-indigo-100">サービス</h4>
               <ul className="space-y-2">
-                <li><a href="#services" className="text-indigo-200 hover:text-white transition-colors">サービス内容</a></li>
-                <li><a href="#cases" className="text-indigo-200 hover:text-white transition-colors">事例紹介</a></li>
-                <li><a href="#process" className="text-indigo-200 hover:text-white transition-colors">ご相談の流れ</a></li>
+                <li><a href="#services" className="text-base md:text-lg text-indigo-200 hover:text-white transition-colors">サービス内容</a></li>
+                <li><a href="#cases" className="text-base md:text-lg text-indigo-200 hover:text-white transition-colors">事例紹介</a></li>
+                <li><a href="#process" className="text-base md:text-lg text-indigo-200 hover:text-white transition-colors">ご相談の流れ</a></li>
               </ul>
             </div>
             
@@ -28,17 +28,17 @@ const Footer: React.FC = () => {
               <ul className="space-y-3">
                 <li className="flex items-start">
                   <Mail size={18} className="text-indigo-200 mr-2 mt-1" />
-                  <a href="mailto:contact@example.com" className="text-indigo-200 hover:text-white transition-colors">
+                  <a href="mailto:contact@example.com" className="text-base md:text-lg text-indigo-200 hover:text-white transition-colors">
                     contact@example.com
                   </a>
                 </li>
                 <li className="flex items-start">
                   <Phone size={18} className="text-indigo-200 mr-2 mt-1" />
-                  <span className="text-indigo-200">03-XXXX-XXXX</span>
+                  <span className="text-base md:text-lg text-indigo-200">03-XXXX-XXXX</span>
                 </li>
                 <li className="flex items-start">
                   <MapPin size={18} className="text-indigo-200 mr-2 mt-1" />
-                  <span className="text-indigo-200">東京都渋谷区</span>
+                  <span className="text-base md:text-lg text-indigo-200">東京都渋谷区</span>
                 </li>
               </ul>
             </div>

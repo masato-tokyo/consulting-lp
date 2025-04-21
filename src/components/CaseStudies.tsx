@@ -21,8 +21,8 @@ const CaseStudies: React.FC = () => {
             <div className="inline-block px-3 py-1 rounded bg-indigo-100 text-indigo-800 text-sm font-medium mb-3">
               {study.company}
             </div>
-            <h3 className="text-xl font-semibold text-gray-900 mb-3">{study.project}</h3>
-            <p className="text-gray-600">{study.description}</p>
+            <h3 className="text-lg md:text-xl font-semibold text-gray-900 mb-3">{study.project}</h3>
+            <p className="text-base md:text-lg text-gray-600">{study.description}</p>
           </div>
         ))}
       </div>

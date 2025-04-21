@@ -24,8 +24,8 @@ const Services: React.FC = () => {
               <div className="w-12 h-12 bg-indigo-100 text-indigo-800 rounded-full flex items-center justify-center mb-4 group-hover:bg-indigo-800 group-hover:text-white transition-colors">
                 <Icon size={24} />
               </div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-3">{service.title}</h3>
-              <p className="text-gray-600">{service.description}</p>
+              <h3 className="text-lg md:text-xl font-semibold text-gray-900 mb-3">{service.title}</h3>
+              <p className="text-base md:text-lg text-gray-600">{service.description}</p>
             </div>
           );
         })}

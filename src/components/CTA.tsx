@@ -10,20 +10,20 @@ const CTA: React.FC = () => {
           雑談から、はじめてみませんか？
         </h2>
         
-        <p className="text-xl text-gray-700 mb-10 leading-relaxed max-w-2xl mx-auto">
+        <p className="text-base md:text-lg text-gray-700 mb-10 leading-relaxed max-w-2xl mx-auto">
           売上や組織のことだけでなく、<br />
           これからのこと、自分自身のことまで。<br />
           話すうちに、経営と人生の輪郭がつながっていく。
         </p>
         
-        <p className="text-xl text-gray-700 mb-10 italic">
+        <p className="text-base md:text-lg text-gray-700 mb-10 italic">
           "経営の雑談"から、気軽に声をかけてみてください。
         </p>
         
         <Button 
           href="https://tally.so/your-form-link" 
           variant="secondary"
-          className="text-lg px-10 py-4"
+          className="text-base md:text-lg px-10 py-4"
         >
           話してみる（ご相談フォームへ）
         </Button>
